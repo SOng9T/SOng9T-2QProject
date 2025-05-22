@@ -1,0 +1,88 @@
+body {
+        margin-top: 60px; /* Adjusts for the fixed navbar */
+        font-family: 'Arial', sans-serif;
+        background-image: url('https://64.media.tumblr.com/516090f50efe028565b4f0096f7147a9/1b9ae9e0c0e6519c-58/s1280x1920/e3bd2cd6100c1d2bbe65a8e236dce955ee388b43.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Hero Section Styling */
+      .hero-section {
+        background-color: lightyellow;
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      .hero-section h1 {
+        font-size: 3rem;
+        color: #343a40;
+      }
+
+      /* Carousel Images */
+      .carousel-inner img {
+        height: 500px;
+        object-fit: cover;
+      }
+
+      .carousel-caption {
+        font-size: 1.5rem;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 5px;
+      }
+
+      .section-title {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 2.5rem;
+        color: #333;
+      }
+
+      /* Center-align Navbar */
+      .navbar-brand, .nav-link {
+        text-align: center;
+      }
+
+      .nav-tabs {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .nav-item {
+        margin: 0 15px;
+      }
+      .about-container {
+        background-color: lightyellow;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: center;
+        color: #333; /* Ensures text is visible on yellow */
+      }
+
+      .about-container h2 {
+        font-size: 2.5rem;
+        color: #343a40;
+      }
+
+      .about-container p {
+        font-size: 1.2rem;
+        color: #343a40;
+      }
+      .custom-navbar {
+      background-color: #FFEB3B; /* Bright yellow */
+      }
+      /* Adjust the size of all images inside the card */
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Optional: Adjust the card height if you want uniformity */
+.card {
+  height: 100%;
+}
